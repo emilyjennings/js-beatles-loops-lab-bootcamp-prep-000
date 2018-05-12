@@ -32,7 +32,7 @@ function iLoveTheBeatles(n) {
   do {
     array.push("I love the Beatles!");
     n++
-  } while (array.length > 0 && maybeTrue())
+  } while (n < 15)
   return array
 }
 }
